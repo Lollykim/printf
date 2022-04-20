@@ -3,6 +3,12 @@
 
 #include <stdlib.h>
 #include <stdarg.h>
+<<<<<<< HEAD
+#include <unistd.h>
+#include <stdio.h>
+#include <limits.h>
+=======
+>>>>>>> fcf082ab635500879033015a1bdf07d4e3309003
 
 /**
  * struct flags - struct containing flags to "turn on"
@@ -60,6 +66,18 @@ int print_char(va_list l, flags_t *f);
 
 /* write_funcs */
 int _putchar(char c);
+<<<<<<< HEAD
+int print_c(va_list ar_list);
+int (*get_func(char s))(va_list ar_list);
+int print_s(va_list ar_list);
+int print_d(va_list ar_list);
+int print_i(va_list ar_numlist);
+int print_b(va_list binary_list);
+int print_u(va_list ar_list);
+int print_o(va_list ar_list);
+int print_x(va_list ar_list);
+int print_X(va_list ar_list);
+=======
 int _puts(char *str);
 
 /* print_custom */
@@ -72,5 +90,6 @@ int print_address(va_list l, flags_t *f);
 
 /* print_percent */
 int print_percent(va_list l, flags_t *f);
+>>>>>>> fcf082ab635500879033015a1bdf07d4e3309003
 
 #endif
