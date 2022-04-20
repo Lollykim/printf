@@ -33,7 +33,7 @@ count_Zero *= 10;
 
 while (count_Zero >= 1)
 {
-count += _putchar(((num_Absolute / count_Zero % '0');
+  count += _putchar(((num_Absolute / count_Zero % '0')));
 count_Zero /= 10;
 }
 return (count);
